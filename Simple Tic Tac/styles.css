@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1c0b30;
+  margin: 0%;
+}
+
+h1 {
+    font-size: 5em;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+}
+
+#Tic-Tac-Toe {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 2em;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+}
+
+#box-1,
+#box-2,
+#box-3,
+#box-4,
+#box-5,
+#box-6,
+#box-7,
+#box-8,
+#box-9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+  border: 5px solid #ff00ff;
+}
+
+#box-1,
+#box-2,
+#box-3,
+#box-4,
+#box-5,
+#box-6,
+#box-7,
+#box-8,
+#box-9 :hover {
+  background-color: #2d0b45;
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+}
